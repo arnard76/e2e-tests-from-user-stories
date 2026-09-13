@@ -1,34 +1,45 @@
 {
-  "name": "e2e-tests-from-user-stories",
-  "version": "1.0.0",
-  "description": "Framework for long-term specification and e2e testing of features.",
-  "main": "dist/index.js",
-  "directories": {
-    "example": "examples"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arnard76/e2e-tests-from-user-stories.git"
-  },
-  "keywords": [
-    "e2e",
-    "testing",
-    "playwright",
-    "user",
-    "stories",
-    "goals",
-    "requirements",
-    "users",
-    "scenarios"
-  ],
-  "author": "arnard76",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arnard76/e2e-tests-from-user-stories/issues"
-  },
-  "homepage": "https://github.com/arnard76/e2e-tests-from-user-stories#readme"
+	"name": "e2e-tests-from-user-stories",
+	"version": "1.0.0",
+	"description": "Framework for long-term specification and e2e testing of features.",
+	"main": "dist/index.js",
+	"directories": {
+		"example": "examples"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc --project tsconfig.prod.json"
+	},
+	"devDependencies": {
+		"@types/node": "^22.14.0",
+		"typescript": "^5.8.3",
+		"vitest": "^3.1.1"
+	},
+	"files": [
+		"./dist/*"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arnard76/e2e-tests-from-user-stories.git"
+	},
+	"keywords": [
+		"e2e",
+		"testing",
+		"playwright",
+		"user",
+		"stories",
+		"goals",
+		"requirements",
+		"users",
+		"scenarios"
+	],
+	"author": "arnard76",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/arnard76/e2e-tests-from-user-stories/issues"
+	},
+	"homepage": "https://github.com/arnard76/e2e-tests-from-user-stories#readme",
+	"dependencies": {
+		"@playwright/test": "^1.63.0"
+	}
 }

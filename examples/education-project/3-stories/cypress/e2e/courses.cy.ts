@@ -20,11 +20,7 @@ describe('Courses features', () => {
 		// logout and sign-in as the HOD or as a team
 	});
 	describe('analyse a subject', { testIsolation: false }, analyseSet(exersciCourses));
-	describe(
-		'analyse a programme',
-		{ testIsolation: false },
-		analyseSet(exersciUGCourses))
-	);
+	describe('analyse a programme', { testIsolation: false }, analyseSet(exersciUGCourses));
 	after(() => {
 		exampleUser.logout();
 	});
