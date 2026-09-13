@@ -1,0 +1,12 @@
+smtp: '1.0'
+info:
+  title: Email Workflows
+servers:
+  - url: smtps://127.0.0.1:7778 # Enable SMTPS (SMTP over SSL)
+mailboxes:
+  - name: ashe292@aucklanduni.ac.nz
+    username: arnav
+    password: secret
+  - name: hs.arch@auckland.ac.nz
+    username: hs
+    password: secret2

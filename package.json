@@ -1,0 +1,34 @@
+{
+  "name": "e2e-tests-from-user-stories",
+  "version": "1.0.0",
+  "description": "Framework for long-term specification and e2e testing of features.",
+  "main": "dist/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnard76/e2e-tests-from-user-stories.git"
+  },
+  "keywords": [
+    "e2e",
+    "testing",
+    "playwright",
+    "user",
+    "stories",
+    "goals",
+    "requirements",
+    "users",
+    "scenarios"
+  ],
+  "author": "arnard76",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnard76/e2e-tests-from-user-stories/issues"
+  },
+  "homepage": "https://github.com/arnard76/e2e-tests-from-user-stories#readme"
+}
